@@ -1,0 +1,56 @@
+h2{
+    text-align: center;
+    font-size: 28px;
+}
+.tambahProduk{
+    border-radius: 15px;
+    border: 5px solid black;
+    background-color: rgb(199, 232, 255);
+    padding: 20px;
+    width: 480px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.err{
+    color: red;
+    font-size: smaller;
+}
+.label{
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+    font-size: 18px;
+}
+input[type="text"], input[type="number"], select, textarea{
+    width: 100%;
+    padding: 5px 5px ;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+.jakir label{
+    display: block;
+    margin-bottom: 5px;
+}
+button[type="button"]{
+    padding: 12px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(117, 255, 78);
+    cursor: pointer;
+    font-size: larger;
+}
+button[type="reset"]{
+    padding: 12px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 89, 0);
+    font-size: larger;
+    cursor: pointer;
+}
